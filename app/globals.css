@@ -1,9 +1,10 @@
+/* /app/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-    background-color: black;
-    color: white;
-    font-family: arial,Arial, Helvetica, sans-serif;
+    background-color: #1e293b; /* Dark gray background */
+    color: white; /* Text color */
+    font-family: 'Inter', sans-serif; /* Adjusted font for a more modern look */
 }

@@ -1,16 +1,15 @@
+// /app/layout.js
 import "./globals.css";
 
 export const metadata = {
-  title: "cprg306-assignments",
-  description: "cprg306-assignments",
+  title: "Shopping List",
+  description: "Shopping list built with React and Tailwind CSS",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        {children}
-      </body>
+      <body className="bg-gray-900 text-white">{children}</body>
     </html>
   );
 }
