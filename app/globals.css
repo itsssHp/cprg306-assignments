@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body {
-    background-color: #1e293b; /* Dark gray background */
-    color: white; /* Text color */
-    font-family: 'Inter', sans-serif; /* Adjusted font for a more modern look */
+    background-color: #1e293b;
+    color: white;
+    font-family: 'Inter', sans-serif; 
 }
