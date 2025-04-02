@@ -1,4 +1,7 @@
+"use client";
+
 import Link from 'next/link';
+import { useEffect } from "react";
 
 export default function Home() {
   return (
@@ -13,6 +16,7 @@ export default function Home() {
         <Link href="/week-7" className="text-blue-500 hover:underline mx-4">Week 7 Assignments</Link>
         <Link href="/week-8" className="text-blue-500 hover:underline mx-4">Week 8 Assignments</Link>
         <Link href="/week-9" className="text-blue-500 hover:underline mx-4">Week 9 Assignments</Link>
+        <Link href="/week-10" className="text-blue-500 hover:underline mx-4">Week 10 Assignments</Link> 
       </p>
     </main>
   );
